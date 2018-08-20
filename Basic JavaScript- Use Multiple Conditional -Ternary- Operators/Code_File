@@ -1,0 +1,5 @@
+function checkSign(num) {
+  return (Math.sign(num)===1) ?  "positive" : (Math.sign(num)===-1) ? "negative":  "zero";
+}
+
+checkSign(10);
